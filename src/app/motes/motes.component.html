@@ -1,0 +1,43 @@
+<div class="container" style="width: 100% !important;">
+  <div class="col-sm-4" style="background: #2F3646;">
+    <div class="row" style="margin-left: 20px; margin-right: 20px;">
+      <h4 style="color: #F7F7F9; margin-top: 20px;">Dipositivos</h4>
+      <div class="row">
+        <table class="table table-striped table-hover" style="padding-top:10px; background: #D0D0D0;">
+          <thead>
+            <tr style="color: #F7F7F9; background: #808080;">
+              <th>Nome</th>
+              <th>IPv6</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngIf="motes.length == 0" style="color: #F7F7F9; ">
+              <td colspan="4" align="center">Nenhum registro encontrado</td>
+            </tr>
+            <tr *ngFor="let mote of motes" style="color: #404040;">
+              <td><b>Mote[{{mote.id}}]</b></td>
+              <td>2001:0000:3238:DFE1:0063:0000:0000:FEFB</td>
+              <td>
+                <button type="button" class="btn btn-info" style="width:100%; margin: 2px;">Visualizar</button>
+                <!--<button type="button" class="btn btn-warning" style="width:100%; margin: 2px;">Editar</button>
+                <button type="button" class="btn btn-danger" style="width:100%; margin: 2px;">Excluir</button>-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <!--<div class="card card-block" style="margin: 20px;">
+                <h4 class="card-title">{{ mote.title }}</h4>
+                <p class="card-text">{{mote.body}}</p>
+                <button type="button" class="btn btn-info">Visualizar</button>
+                <button type="button" class="btn btn-warning">Editar</button>
+                <button type="button" class="btn btn-danger">Excluir</button>
+              </div>-->
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-8" style="background: #1B1E27; height:1080px !important;">
+    <h4 style="color: #F7F7F9; margin-top: 20px;">Painel</h4>
+    <app-barchart *ngIf="chartData" [data]="chartData"></app-barchart>
+  </div>
+</div>
