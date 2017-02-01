@@ -1,6 +1,6 @@
 # TCC - Henrique Martins Vilela
-## Curso: Pós-graduação em desenvolvimento de aplicações para dispositivos móveis e cloud computing
-## Projeto: Dashboard para dispositivos IoT
+##### Curso: Pós-graduação em desenvolvimento de aplicações para dispositivos móveis e cloud computing
+##### Projeto: Dashboard para dispositivos IoT
 
 ## Rodando o projeto
 Basta executar `npm run build` e acessar `http://localhost:3000/`
