@@ -5,7 +5,7 @@
 #### Projeto: Dashboard para dispositivos IoT<br /><br />
 
 ## Rodando o projeto
-Basta executar `npm run build` e acessar `http://localhost:3000/`<br /><br /><br /><br />
+Executar `npm install`, `npm run build` e acessar `http://localhost:3000/`<br /><br /><br /><br />
 
 
 ## 
