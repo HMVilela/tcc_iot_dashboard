@@ -2,7 +2,7 @@
 #### Aluno: Henrique Martins Vilela
 #### Curso: Pós-graduação em desenvolvimento de aplicações para dispositivos móveis e cloud computing
 #### Instituição: Instituto Nacional de Telecomunicações - INATEL
-#### Projeto: Dashboard para dispositivos IoT
+#### Projeto: Dashboard para dispositivos IoT<br /><br />
 
 ## Rodando o projeto
 Basta executar `npm run build` e acessar `http://localhost:3000/`<br /><br /><br /><br />
