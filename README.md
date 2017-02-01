@@ -1,12 +1,14 @@
-# TCC - Henrique Martins Vilela
-##### Curso: Pós-graduação em desenvolvimento de aplicações para dispositivos móveis e cloud computing
-##### Projeto: Dashboard para dispositivos IoT
+# TRABALHO DE CONCLUSÃO DE CURSO
+#### Aluno: Henrique Martins Vilela
+#### Curso: Pós-graduação em desenvolvimento de aplicações para dispositivos móveis e cloud computing
+#### Instituição: Instituto Nacional de Telecomunicações - INATEL
+#### Projeto: Dashboard para dispositivos IoT
 
 ## Rodando o projeto
 Basta executar `npm run build` e acessar `http://localhost:3000/`
 
 
-## .
+## 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
 
 ## Development server
